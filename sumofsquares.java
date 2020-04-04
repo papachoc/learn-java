@@ -1,3 +1,5 @@
+//leetcode.com/problems/sum-of-square-numbers/
+
 import java.util.Scanner;
 
 public class sumofsquares{
