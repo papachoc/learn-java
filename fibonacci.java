@@ -1,3 +1,6 @@
+// Learning recursion in Java
+//Compute fibonacci number for a given term X [F(X) = F(X-1) + F(X-2)]
+
 import java.util.Scanner;
 
 public class fibonacci {
@@ -15,10 +18,9 @@ public class fibonacci {
     }
 
     static int fib(int x) {
-        if (x == 0)
-            return 0;
-        else if (x == 1)
-            return 1;
-        else return (fib(x-1) + fib(x-2));
+        if (x <= 1)
+            return x;
+        else
+			return (fib(x-1) + fib(x-2));
     }
 }
