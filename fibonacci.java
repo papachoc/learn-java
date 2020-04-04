@@ -16,7 +16,6 @@ public class fibonacci {
         }
 
     }
-
     static int fib(int x) {
         if (x <= 1)
             return x;
